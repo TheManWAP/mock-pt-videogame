@@ -1,1 +1,9 @@
-
+game.setDialogTextColor(12)
+game.setDialogFrame(assets.image`DiaBackground`)
+game.showLongText("In the future, two anthro-humans, Amy and Tannur, awaken from their cryogenic slumber and appear in what seems to be a wasteland. Confused, they decide to look around for answers as to what happened to Earth.", DialogLayout.Full)
+tiles.setCurrentTilemap(tilemap`Spawn`)
+mp.setPlayerSprite(mp.playerSelector(mp.PlayerNumber.One), sprites.create(assets.image`AmyIdle`, SpriteKind.Player))
+mp.setPlayerSprite(mp.playerSelector(mp.PlayerNumber.Two), sprites.create(assets.image`TannurIdle`, SpriteKind.Player))
+mp.moveWithButtons(mp.playerSelector(mp.PlayerNumber.One), 100, 70)
+mp.moveWithButtons(mp.playerSelector(mp.PlayerNumber.Two), 100, 70)
+scene.cameraFollowSprite(mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.One)))

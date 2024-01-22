@@ -2,13 +2,19 @@
     "name": "Mock PT videogame",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "multiplayer": "*",
+        "animation": "*"
     },
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
-        "assets.json"
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -20,5 +26,23 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "blocksprj",
+    "palette": [
+        "#000000",
+        "#FF0000",
+        "#FF6E00",
+        "#FFFF00",
+        "#00FF00",
+        "#0000FF",
+        "#C200C2",
+        "#FFFFFF",
+        "#78B4FD",
+        "#87F2FF",
+        "#8C32C8",
+        "#F0BEE6",
+        "#000000",
+        "#969696",
+        "#8A5A33",
+        "#28DCDC"
+    ]
 }

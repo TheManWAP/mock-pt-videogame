@@ -1,0 +1,22 @@
+{
+    "image2": {
+        "data": "hwQQABAAAADMAAAAAAAAAMsMAADMDAAAvcwAzGzMDADby8xmZvzMDLxtZrb2v/sMzGZmu/v/+8zMZrbLu/mfzL1tu7u7n/8Mu227u7uf/wzMZrbLu/mfzMxmZrv7//vMvG1mtva/+wzby8xmZvzMDLsAAMxszAAADQAAAMwMAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "AmyIdle"
+    },
+    "image3": {
+        "data": "hwQQABAAAAAAAADd3QAAAADQ3c3c3d0N0M3MzMPMRA3QzTM0M0xNDd3MM0Q08/8NzTxDxETz91XMM0NERPR/VTwzQ0RM9HcFPDNDREz0dwU8M0NERPR/Vc0zQ8RE8/dV3TwzRDTz/w3dzDM0M0xNDdDNzMzDzEQNAN3dzdzd3Q0AAADd3QAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "TannurIdle"
+    },
+    "image1": {
+        "data": "hwQPAA8AAAD/f3d3d3f/D/9/d3d3d/8P/393d3d3/w//f3d3d3f/D/9/d3d3d/8P/393d3d3/w//f3d3d3f/D/9/d3d3d/8P/393d3d3/w//f3d3d3f/D/9/d3d3d/8P/393d3d3/w//f3d3d3f/D/9/d3d3d/8P/393d3d3/w8=",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "DiaBackground"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
