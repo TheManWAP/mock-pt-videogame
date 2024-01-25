@@ -46,18 +46,75 @@ d d c 3 3 4 4 4 4 4 4 3 3 c d d
 f f f f f f f f f f f f f f f 
 f f f f f f f f f f f f f f f 
 f f f f f f f f f f f f f f f 
-7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
-7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
-7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
-7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
-7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
-7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
-7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
-7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
-7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b 
+d d d d d d d d d d d d d d d 
+d d d d d d d d d d d d d d d 
+d d d d d d d d d d d d d d d 
+d d d d d d d d d d d d d d d 
+d d d d d d d d d d d d d d d 
+b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b 
 f f f f f f f f f f f f f f f 
 f f f f f f f f f f f f f f f 
 f f f f f f f f f f f f f f f 
+`;
+            case "image4":
+            case "AmyWalkDown1":return img`
+. . . . . . 5 . 5 . . . . . . . 
+. . . . . f 5 5 5 f f . . . . . 
+. . . . f 1 5 2 5 1 6 f . . . . 
+. . . f 1 6 6 6 6 6 1 6 f . . . 
+. . . f 6 6 f f f f 6 1 f . . . 
+. . . f 6 f f d d f f 6 f . . . 
+. . f 6 f d f d d f d f 6 f . . 
+. . f 6 f d 3 d d 3 d f 6 f . . 
+. . f 6 6 f d d d d f 6 6 f . . 
+. f 6 6 f 3 f f f f 3 f 6 6 f . 
+. . f f 3 3 5 3 3 5 3 d f f . . 
+. . . f d f 3 5 5 3 f f d f . . 
+. . . f d f 3 3 3 3 3 f f . . . 
+. . . f f 3 5 3 3 5 3 3 f . . . 
+. . . . f f f f f f f f f . . . 
+. . . . . . . . . f f . . . . . 
+`;
+            case "image5":
+            case "Bubble":return img`
+. . . d d d d d d d d d d . . . 
+. . d f f f f f f f d d d d d . 
+. d d f f f f f f f f f d d d d 
+d d f f f f f f 7 7 7 f f d d d 
+d d f f f f f f 7 7 7 f f f d d 
+d 1 f f f f f f 7 7 7 f f f f d 
+d 1 1 f f f f f f f f 7 7 f f d 
+d 2 1 f f f f f f f f 7 7 f f d 
+d 2 1 1 f f f f f f f f f f f d 
+d 2 2 1 f f f f f f f f f f f d 
+d 3 2 2 1 1 f f f f f f f f f d 
+d 3 3 2 2 1 1 f f f f f f f f d 
+d d 3 3 2 2 1 1 1 f f f f f f d 
+. d d 3 3 3 2 2 1 1 1 1 1 1 d d 
+. . . d d 3 3 2 2 2 2 2 d d d d 
+. . . . d d d d d d d d d d d d 
+`;
+            case "image6":
+            case "NULL":return img`
+c c c c c c c c c c c c c c c c 
+c c c c c c c c c c c c c c c c 
+c c c c c c c c c c c c c c c c 
+c c c c c c c c c c c c c c c c 
+c c c c c c c c c c c c c c c c 
+c c c c c c c c c c c c c c c c 
+c c c c c c c c c c c c c c c c 
+c c c c c c c c c c c c c c c c 
+c c c c c c c c c c c c c c c c 
+c c c c c c c c c c c c c c c c 
+c c c c c c c c c c c c c c c c 
+c c c c c c c c c c c c c c c c 
+c c c c c c c c c c c c c c c c 
+c c c c c c c c c c c c c c c c 
+c c c c c c c c c c c c c c c c 
+c c c c c c c c c c c c c c c c 
 `;
         }
         return null;

@@ -10,9 +10,24 @@
         "displayName": "TannurIdle"
     },
     "image1": {
-        "data": "hwQPAA8AAAD/f3d3d3f/D/9/d3d3d/8P/393d3d3/w//f3d3d3f/D/9/d3d3d/8P/393d3d3/w//f3d3d3f/D/9/d3d3d/8P/393d3d3/w//f3d3d3f/D/9/d3d3d/8P/393d3d3/w//f3d3d3f/D/9/d3d3d/8P/393d3d3/w8=",
+        "data": "hwQPAA8AAAD/v9vd3bv/D/+/293du/8P/7/b3d27/w//v9vd3bv/D/+/293du/8P/7/b3d27/w//v9vd3bv/D/+/293du/8P/7/b3d27/w//v9vd3bv/D/+/293du/8P/7/b3d27/w//v9vd3bv/D/+/293du/8P/7/b3d27/w8=",
         "mimeType": "image/x-mkcd-f4",
         "displayName": "DiaBackground"
+    },
+    "image4": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAADwAAAAAAAA/28PAAAA8P9mZv//AAAfZv/20/0P8GH23T/zPw9VZf8//TVTD1Bi3939UzMPVWXf3f1TMw/wYf8//TVT//AW9t0/8zP/AG9h//b9Pw8A8P9mZt//DwAAAP9v/wAAAAAAAPAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "AmyWalkDown1"
+    },
+    "image5": {
+        "data": "hwQQABAAAAAA0N3d3d0NAADdHSEiM90A0P3/ESEy0wD9////ESIzDf3/////ITLd/f////8RMtP9/////x8h0/3//////yHS/X93////EdL9f3f///8f0t1/d////x/S3f//d///H9Ld/f93//8f3dDd/////x/d0N39////390A3d3d3d3d3Q==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Bubble"
+    },
+    "image6": {
+        "data": "hwQQABAAAADMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "NULL"
     },
     "*": {
         "mimeType": "image/x-mkcd-f4",
