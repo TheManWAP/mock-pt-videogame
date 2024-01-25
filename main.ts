@@ -4,22 +4,22 @@ scene.onOverlapTile(SpriteKind.Player, sprites.builtin.forestTiles0, function (s
     tiles.placeOnTile(mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.Two)), tiles.getTileLocation(0, randint(2, 4)))
 })
 controller.player2.onButtonEvent(ControllerButton.A, ControllerButtonEvent.Pressed, function () {
-	
+    Shot = sprites.createProjectileFromSprite(assets.image`Bubble`, mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.Two)), mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.Two)).vx, mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.Two)).vy)
 })
 function GiveAbilities () {
+    game.showLongText("Abilities now unlocked! Amy now has a melee ability (Coral Club), and Tannur has a ranged ability (Bubble Blast).", DialogLayout.Full)
+    game.showLongText("Using the (A) button, they can use their newfound powers to find the cure and save the Eeath!", DialogLayout.Full)
     num = 1
     if (num == 1) {
-        Shot = sprites.createProjectileFromSide(assets.image`Bubble`, 50, 50)
+        Shot = sprites.createProjectileFromSprite(assets.image`Bubble`, mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.Two)), mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.Two)).vx, mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.Two)).vy)
     }
-}
-function Abilities () {
-	
 }
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.collectibleRedCrystal, function (sprite, location) {
     GiveAbilities()
 })
 let Shot: Sprite = null
 let num = 0
+mp.setPlayerIndicatorsVisible(true)
 num = 0
 let Player_1 = mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.One))
 let Player_2 = mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.Two))
@@ -39,8 +39,5 @@ scene.cameraFollowSprite(mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.On
 mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.One)).setStayInScreen(true)
 mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.Two)).setStayInScreen(true)
 if (num != 1) {
-    Shot = sprites.createProjectileFromSide(assets.image`NULL`, 50, 50)
-    if (controller.player2.isPressed(ControllerButton.A) == true) {
-    	
-    }
+    Shot = sprites.createProjectileFromSprite(assets.image`NULL`, mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.Two)), mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.Two)).vx, mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.Two)).vy)
 }
