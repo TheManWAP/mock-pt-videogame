@@ -29,6 +29,36 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "NULL"
     },
+    "image8": {
+        "data": "hwQQABAAAAAAzMwM4M4MAMDszOyemckAzM7smZc8mQzs7n6XmfmZyewA7pmZ+ZnJAADgnpn5mckAAH6XlzyZyQAA7pmZmZnJAADg7pmZmckAAMycnpmZzgDMnpnumekMwJ7p7u7MzADg6ZnuDuAOAJzpnukAAA4AnO7uDgAAAADsAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "ENEMY1"
+    },
+    "image9": {
+        "data": "hwQQABAAAAAAAAAAAMCZAADAnAkATEQJAExElMB0R8TARDNESXR3xExEw0QccXfHTEQzREx0d8dMRDNETDRzx0xEw0RMnDPHTEQzxETJPMdMRERExMwzw8BERESTMzPDAExENEk0M5MAwJyZRDTDCQAAAMBEw5kAAAAAAEwMAAAAAAAAwAwAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "ENEMY2"
+    },
+    "image10": {
+        "data": "hwQYABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwMwAAAAAAAAAAAAAwDEAAAAAAAAAzMwMHMMAAAAAAADMmdnMHDEAAAAAAMAZzJnXHMMAAAAAAMDBEdnczDEMAAAAABwczPHf3cwMAAAAABzBEZzdzczMAAAAABwczJHd3c3MAAAAABzBEfzfzczMAAAAAMAczNnczTEMAAAAAMDJEZnXHMMAAAAAAADMmdnMHDEAAAAAAAAAzMwMHMMAAAAAAAAAAAAAzDEAAAAAAAAAAAAAwMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "ENEMY3"
+    },
+    "image11": {
+        "data": "hwQQABAAAAAAAADMzMDLDAAAwNzNvLvLAADAfbe8u8sAAMDdu7u9ywAAwMy727vLAADM7rzbu8wAwOzMu9u7ywDAzt27u73LAMDJfce7u8sAwJnczby7ywDMmcmcvMsMAOyZmZ7J3M0AnJ6ZnpnLzADMnJmembvLAADMyZzJzMwAAMDMzMwAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "ENEMY4"
+    },
+    "image12": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAzAAAAAAAAMDunJkAzAAAwB6RmclVAADMERGZyVwMAMzuEXlbXV3MHOEe2ctVVRwRER68zV1VzBERHrzNXVXAHOEe2ctVVQDM7hF5W11dAMwREZnJXAwAwB6RmclVAADA7pyZAMwAAADMAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "ENEMY5"
+    },
+    "image7": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAJ0NAACACAAAmQkAAICIAPDdCQAAAIgI/w8AAAAAgN3/CACACBHQ3Y2IAIAIEdHdDYgAAIgYkcwAAAAAgNi5zAwAAHCH3d3IDAAAcHeZ3YgAAAAAdzuDiAgAAAidOTMACAAAgN3dMwAAAACA3Y0IAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "CoralClub"
+    },
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",
