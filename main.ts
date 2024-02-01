@@ -12,17 +12,20 @@ function GiveAbilities () {
         Shot = sprites.createProjectileFromSide(assets.image`Bubble`, 50, 50)
     }
 }
-function Abilities () {
-	
-}
+controller.player2.onEvent(ControllerEvent.Connected, function () {
+    mp.setPlayerSprite(mp.playerSelector(mp.PlayerNumber.Two), sprites.create(assets.image`TannurIdle`, SpriteKind.Player))
+    Player_2 = mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.Two))
+    mp.moveWithButtons(mp.playerSelector(mp.PlayerNumber.Two), 100, 70)
+    mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.Two)).setStayInScreen(true)
+})
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.collectibleRedCrystal, function (sprite, location) {
     GiveAbilities()
 })
+let Player_2: Sprite = null
 let Shot: Sprite = null
 let num = 0
 num = 0
 let Player_1 = mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.One))
-let Player_2 = mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.Two))
 game.setDialogTextColor(12)
 game.setDialogFrame(assets.image`DiaBackground`)
 game.showLongText("In the future, Earth is a barren and inverted wasteland, with monsters which were once the villagers of this peaceful world roaming the grounds. But there is hope.", DialogLayout.Full)
@@ -32,15 +35,7 @@ game.setDialogTextColor(9)
 game.showLongText("Reclaimed Realms: Aquatic Assault", DialogLayout.Center)
 tiles.setCurrentTilemap(tilemap`Spawn`)
 mp.setPlayerSprite(mp.playerSelector(mp.PlayerNumber.One), sprites.create(assets.image`AmyIdle`, SpriteKind.Player))
-mp.setPlayerSprite(mp.playerSelector(mp.PlayerNumber.Two), sprites.create(assets.image`TannurIdle`, SpriteKind.Player))
 mp.moveWithButtons(mp.playerSelector(mp.PlayerNumber.One), 100, 70)
-mp.moveWithButtons(mp.playerSelector(mp.PlayerNumber.Two), 100, 70)
 scene.cameraFollowSprite(mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.One)))
 mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.One)).setStayInScreen(true)
 mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.Two)).setStayInScreen(true)
-if (num != 1) {
-    Shot = sprites.createProjectileFromSide(assets.image`NULL`, 50, 50)
-    if (controller.player2.isPressed(ControllerButton.A) == true) {
-    	
-    }
-}
