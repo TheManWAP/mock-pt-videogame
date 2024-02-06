@@ -116,6 +116,25 @@ c c c c c c c c c c c c c c c c
 c c c c c c c c c c c c c c c c 
 c c c c c c c c c c c c c c c c 
 `;
+            case "image7":
+            case "CoralClub":return img`
+. . . . . . . . . . . . . 8 . . 
+. . . . . . 8 8 . . 7 7 . . 8 8 
+. . . . . . 8 8 8 . 7 7 7 d d d 
+. . . . . . . . 8 8 8 7 7 9 d d 
+. . . . . . 1 1 8 8 d 9 b 9 d d 
+. . 8 8 . . 1 1 1 d d 9 3 3 d 8 
+. . 8 8 8 . . 1 1 9 d d 3 3 3 8 
+. . . 8 8 8 d d 9 b d d 8 3 3 . 
+. . . . 8 d d d c c 8 8 8 . . . 
+. . . . . d d d c c c 8 8 . . . 
+. . . . f f d d . c c . 8 8 . . 
+. . . f f f 8 . . . . . . . . . 
+. d 9 d f 8 8 8 . . . . . . . . 
+. 9 9 d . . 8 8 . . . . . . . . 
+. d 9 9 . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`;
             case "image8":
             case "ENEMY1":return img`
 . . c c c . . . . . . . . c c c 
@@ -218,25 +237,6 @@ c b b b b c b b b b c d c b c .
 . . c 5 5 5 5 5 5 5 5 5 5 c . . 
 . . . . c d 5 5 5 5 d c . . . . 
 . . . . . 5 5 5 5 5 5 . . . . . 
-`;
-            case "image7":
-            case "CoralClub":return img`
-. . . . . . . . . . . . . 8 . . 
-. . . . . . 8 8 . . 7 7 . . 8 8 
-. . . . . . 8 8 8 . 7 7 7 d d d 
-. . . . . . . . 8 8 8 7 7 9 d d 
-. . . . . . 1 1 8 8 d 9 b 9 d d 
-. . 8 8 . . 1 1 1 d d 9 3 3 d 8 
-. . 8 8 8 . . 1 1 9 d d 3 3 3 8 
-. . . 8 8 8 d d 9 b d d 8 3 3 . 
-. . . . 8 d d d c c 8 8 8 . . . 
-. . . . . d d d c c c 8 8 . . . 
-. . . . f f d d . c c . 8 8 . . 
-. . . f f f 8 . . . . . . . . . 
-. d 9 d f 8 8 8 . . . . . . . . 
-. 9 9 d . . 8 8 . . . . . . . . 
-. d 9 9 . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
 `;
         }
         return null;
